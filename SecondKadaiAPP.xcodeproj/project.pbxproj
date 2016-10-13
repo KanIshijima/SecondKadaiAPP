@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8BCDD61DAFAA1A0050FD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BCDD51DAFAA1A0050FD87 /* AppDelegate.swift */; };
+		EF8BCDD81DAFAA1A0050FD87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BCDD71DAFAA1A0050FD87 /* ViewController.swift */; };
+		EF8BCDDB1DAFAA1A0050FD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8BCDD91DAFAA1A0050FD87 /* Main.storyboard */; };
+		EF8BCDDD1DAFAA1A0050FD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8BCDDC1DAFAA1A0050FD87 /* Assets.xcassets */; };
+		EF8BCDE01DAFAA1A0050FD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8BCDDE1DAFAA1A0050FD87 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF8BCDD21DAFAA1A0050FD87 /* SecondKadaiAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8BCDD51DAFAA1A0050FD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8BCDD71DAFAA1A0050FD87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8BCDDA1DAFAA1A0050FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8BCDDC1DAFAA1A0050FD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8BCDDF1DAFAA1A0050FD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8BCDE11DAFAA1A0050FD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8BCDCF1DAFAA1A0050FD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8BCDC91DAFAA1A0050FD87 = {
+			isa = PBXGroup;
+			children = (
+				EF8BCDD41DAFAA1A0050FD87 /* SecondKadaiAPP */,
+				EF8BCDD31DAFAA1A0050FD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8BCDD31DAFAA1A0050FD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8BCDD21DAFAA1A0050FD87 /* SecondKadaiAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8BCDD41DAFAA1A0050FD87 /* SecondKadaiAPP */ = {
+			isa = PBXGroup;
+			children = (
+				EF8BCDD51DAFAA1A0050FD87 /* AppDelegate.swift */,
+				EF8BCDD71DAFAA1A0050FD87 /* ViewController.swift */,
+				EF8BCDD91DAFAA1A0050FD87 /* Main.storyboard */,
+				EF8BCDDC1DAFAA1A0050FD87 /* Assets.xcassets */,
+				EF8BCDDE1DAFAA1A0050FD87 /* LaunchScreen.storyboard */,
+				EF8BCDE11DAFAA1A0050FD87 /* Info.plist */,
+			);
+			path = SecondKadaiAPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8BCDD11DAFAA1A0050FD87 /* SecondKadaiAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8BCDE41DAFAA1A0050FD87 /* Build configuration list for PBXNativeTarget "SecondKadaiAPP" */;
+			buildPhases = (
+				EF8BCDCE1DAFAA1A0050FD87 /* Sources */,
+				EF8BCDCF1DAFAA1A0050FD87 /* Frameworks */,
+				EF8BCDD01DAFAA1A0050FD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondKadaiAPP;
+			productName = SecondKadaiAPP;
+			productReference = EF8BCDD21DAFAA1A0050FD87 /* SecondKadaiAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8BCDCA1DAFAA1A0050FD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KanIshijima;
+				TargetAttributes = {
+					EF8BCDD11DAFAA1A0050FD87 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF8BCDCD1DAFAA1A0050FD87 /* Build configuration list for PBXProject "SecondKadaiAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8BCDC91DAFAA1A0050FD87;
+			productRefGroup = EF8BCDD31DAFAA1A0050FD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8BCDD11DAFAA1A0050FD87 /* SecondKadaiAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8BCDD01DAFAA1A0050FD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8BCDE01DAFAA1A0050FD87 /* LaunchScreen.storyboard in Resources */,
+				EF8BCDDD1DAFAA1A0050FD87 /* Assets.xcassets in Resources */,
+				EF8BCDDB1DAFAA1A0050FD87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8BCDCE1DAFAA1A0050FD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8BCDD81DAFAA1A0050FD87 /* ViewController.swift in Sources */,
+				EF8BCDD61DAFAA1A0050FD87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF8BCDD91DAFAA1A0050FD87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8BCDDA1DAFAA1A0050FD87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8BCDDE1DAFAA1A0050FD87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8BCDDF1DAFAA1A0050FD87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8BCDE21DAFAA1A0050FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8BCDE31DAFAA1A0050FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8BCDE51DAFAA1A0050FD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondKadaiAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.KanIshijima.SecondKadaiAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF8BCDE61DAFAA1A0050FD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondKadaiAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.KanIshijima.SecondKadaiAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8BCDCD1DAFAA1A0050FD87 /* Build configuration list for PBXProject "SecondKadaiAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8BCDE21DAFAA1A0050FD87 /* Debug */,
+				EF8BCDE31DAFAA1A0050FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8BCDE41DAFAA1A0050FD87 /* Build configuration list for PBXNativeTarget "SecondKadaiAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8BCDE51DAFAA1A0050FD87 /* Debug */,
+				EF8BCDE61DAFAA1A0050FD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8BCDCA1DAFAA1A0050FD87 /* Project object */;
+}
